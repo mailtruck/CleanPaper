@@ -1,0 +1,57 @@
+.tableViewCellFirst, #bookmark_list > div:first-child {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0 !important;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0 !important;
+}
+
+a {
+/*    color: #000 !important;
+*/    text-decoration: underline !important;
+}
+
+body {
+/*  background: url(grid.png) repeat;*/
+}
+
+.tableViewCell {
+  background-color: transparent !important;
+  border: 0px !important;
+  border-top: 1px solid #000 !important;
+}
+
+.tableViewCell:first-child {
+  border-top: 0px !important;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+h1#logo {
+  margin-top: 28px !important;
+  padding-bottom: 10px !important;
+/*  margin-bottom: 6px !important;*/
+}
+
+#userpanel {
+  margin-top: 25px !important;
+}
+
+#header {
+  margin-bottom: 26px !important;
+}
+
+#categoryHeader {
+  margin-top: 1px !important;
+}
+
+div#bookmark_list {
+  padding-top: 25px !important;
+}
+
+div#paginationTop {
+  margin-top: 0px !important;
+}
